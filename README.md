@@ -15,6 +15,7 @@ Very space efficent. Dont need to store location of each square root.
 
 ### EXAMPLE 
 
+```
  x = Convert.ToDouble(Console.ReadLine());        || Grabs a User value 
  sqrtList = s.generateSqrtList(x, 6, 1000, 0.01); || Creates list from user value, rounded to 6 figures, upper bound of 1000, creating a new entry at every 0.01 interval 
  string route = @"DIRECTORY\root.txt";            || The following code outputs a txt file with the list
@@ -25,6 +26,7 @@ Very space efficent. Dont need to store location of each square root.
         sw.Write(sqrtList[i].ToString());
     }
  }
+ ```
  
  ### THE FOLLING TEXT FILE 
  
