@@ -4,14 +4,16 @@ Can be used for the start of a world generation. Accuracy can be determined by t
 
 ### WRITTEN IN C# BUT CAN EASILY BE PORTED 
 
-The main function used is || generateSqrtList(double input, int roundTo, int size, double interval)
+The main function used is &rarr; `generateSqrtList(double input, int roundTo, int size, double interval)`
+```
 input: Starting value to start list from -- Cannot be less than zero
 roundTo: Utilizes Math.Round to round to the values to number of figures
 size: Value that list will reach -- Cannot be less than zero or less than input
 interval: difference in size of x1 and x2.
+```
 
-The index of each square root does not need to be stored. Is simply calculated using: Index = (SqrtToFind-Input) / Interval --> We then round to the nearest whole number
-Very space efficent. Dont need to store location of each square root. 
+The index of each square root does not need to be stored. Is simply calculated using  `Index = (SqrtToFind-Input) / Interval` We then round to the nearest whole number
+Very efficent as you dont need to store location of each square root. 
 
 ### EXAMPLE 
 
